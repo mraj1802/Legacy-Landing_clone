@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.rightSection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

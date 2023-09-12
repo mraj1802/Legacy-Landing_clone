@@ -1,0 +1,137 @@
+.stepContainer {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.circle {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: 42px;
+  bottom: 15px;
+}
+.textContainer {
+  max-width: 480px;
+}
+.stepHeading {
+  padding-left: 40px;
+}
+.stepText {
+  padding-left: 40px;
+}
+.stepContainerRight {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.circleRight {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  right: 42px;
+  bottom: 15px;
+}
+.textContainerRight {
+  max-width: 480px;
+}
+.stepHeadingRight {
+  padding-right: 40px;
+}
+
+.note {
+  padding: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+.circleResponsive {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: -6%;
+}
+@media (max-width: 1016px) {
+  .stepContainer {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .stepContainerRight {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .textContainer {
+    min-height: auto !important;
+  }
+  .textContainerRight {
+    min-height: auto !important;
+  }
+  .stepContainerRight {
+    gap: 0px;
+  }
+  .stepText {
+    padding: 0px;
+    padding-left: 20px;
+  }
+  .stepTextRight {
+    padding-left: 20px;
+  }
+  .stepHeading {
+    padding: 0px;
+    padding-left: 20px;
+  }
+  .stepHeadingRight {
+    padding: 0px;
+    padding-left: 20px;
+  }
+  .note {
+    margin-left: 0px;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 1002px) {
+  .circleResponsive {
+    left: -2.5%;
+  }
+}
+@media (max-width: 830px) {
+  .circleResponsive {
+    left: -3%;
+  }
+}
+@media (max-width: 636px) {
+  .circleResponsive {
+    left: -3.7%;
+  }
+}
+@media (max-width: 636px) {
+  .circleResponsive {
+    left: -6%;
+  }
+}
+@media (max-width: 406px) {
+  .circleResponsive {
+    left: -7%;
+  }
+}

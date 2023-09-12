@@ -1,0 +1,65 @@
+.main {
+  position: relative;
+  margin: 0px !important;
+}
+.container {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.root {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  text-align: center;
+  font-weight: 700 !important;
+}
+.button {
+  box-shadow: 6px 4px 31px rgba(255, 255, 255, 0.5);
+}
+.glossary {
+  text-align: center;
+  padding: 42px 0px;
+  padding-bottom: 32px;
+  max-width: 784px;
+  margin: auto;
+}
+.buttonGlossary {
+  box-shadow: 6px 4px 31px rgba(255, 255, 255, 0.5) inset;
+}
+.main::before {
+  /* background-image: url("/marketing/gradient.svg"); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left;
+  content: "";
+  position: absolute;
+  right: 80%;
+  top: 40%;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22.5px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+  .glossary {
+    padding: 40px 20px;
+  }
+  .container {
+    padding-top: 50px;
+  }
+  .buttonGlossary {
+    padding: 8px 50px;
+  }
+}

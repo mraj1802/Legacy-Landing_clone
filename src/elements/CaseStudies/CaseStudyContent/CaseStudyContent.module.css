@@ -1,0 +1,29 @@
+.container {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 90px;
+  margin-top: 85px;
+  max-width: 310px;
+  max-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.titles {
+  cursor: pointer;
+}
+.titles:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1144px) {
+  .container {
+    display: none;
+  }
+}
+.line:after {
+  margin-left: 8px;
+  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+  text-decoration: line-through;
+}

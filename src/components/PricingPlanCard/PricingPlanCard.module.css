@@ -1,0 +1,49 @@
+.root {
+  width: 305px;
+  min-height: 1370px;
+  position: relative;
+}
+.textSection {
+  padding-top: 42px;
+  padding-bottom: 20px;
+  background-color: #f0f0f0;
+  min-height: 323px;
+}
+.textContainer {
+  display: flex;
+  gap: 5px;
+  margin-top: 15px;
+}
+.line {
+  padding-bottom: 22px;
+}
+.discount {
+  background-color: red;
+}
+.discount {
+  padding-left: 5px;
+  border-radius: 4px 0px 0px 4px;
+}
+.img {
+  position: absolute;
+  top: -35px;
+  left: 70px;
+}
+.commingSoon {
+  position: absolute;
+  top: -35px;
+  left: 90px;
+}
+@media (max-width: 1172px) {
+  .root {
+    width: 600px;
+    border-radius: 20px !important;
+    min-height: auto;
+    box-shadow: 0px 0px 31px rgba(0, 0, 0, 0.24);
+  }
+}
+@media (max-width: 638px) {
+  .root {
+    width: 330px;
+  }
+}

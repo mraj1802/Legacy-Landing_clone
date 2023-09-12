@@ -1,0 +1,6 @@
+.container {
+  display: flex;
+}
+.name {
+  white-space: nowrap;
+}

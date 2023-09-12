@@ -1,0 +1,74 @@
+.root {
+  background: radial-gradient(
+    54.94% 111.99% at 0% 0%,
+    rgb(20, 85, 175) 0%,
+    rgb(0, 75, 180) 14.4%,
+    rgb(0, 70, 166) 28.94%,
+    rgb(12, 61, 129) 44.94%,
+    rgb(5, 50, 114) 58.17%,
+    rgb(8, 45, 96) 75.51%,
+    rgb(6, 38, 83) 100%
+  );
+  position: relative;
+  margin-top: -1px !important;
+}
+.textContainer {
+  text-align: center;
+  max-width: 810px;
+  margin: auto;
+}
+.root::before {
+  background-image: url("/landing/top.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 502px;
+  left: 0;
+  z-index: 1000;
+  pointer-events: none;
+}
+.root::after {
+  background-image: url("/landing/bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: -778px;
+  left: 0;
+  z-index: 1000;
+  pointer-events: none;
+}
+.arrows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 42px;
+  gap: 20px;
+}
+.icon {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.icon:hover {
+  background-color: white;
+  color: var(--primary-gradient);
+  cursor: pointer;
+}
+@media (max-width: 1698px) {
+  .root::after {
+    display: none;
+  }
+  .root::before {
+    display: none;
+  }
+}

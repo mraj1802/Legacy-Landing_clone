@@ -1,0 +1,102 @@
+.root {
+  height: 800px;
+  position: relative;
+}
+.root::before {
+  background-image: url("/suites/how.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+  z-index: 10;
+}
+.container {
+  max-width: 558px;
+  padding-top: 87px;
+  padding-bottom: 80px;
+}
+.stepContainer {
+  position: relative;
+}
+.image {
+  position: absolute;
+  top: -200px;
+  bottom: 0px;
+  left: 70px;
+}
+.steps {
+  display: flex;
+  position: relative;
+}
+.stepOne,
+.stepTwo,
+.stepThree {
+  position: absolute;
+}
+
+.stepOne {
+  top: 153px;
+  left: 152px;
+}
+.stepTwo {
+  left: 542px;
+  top: 39px;
+}
+.stepThree {
+  left: 903px;
+  top: -122px;
+  bottom: 0px;
+}
+
+@media (max-width: 1200px) {
+  .image {
+    left: 0px;
+  }
+  .stepOne {
+    top: 183px;
+    left: 152px;
+  }
+  .stepThree {
+    top: -179px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .stepOne,
+  .stepTwo,
+  .stepThree {
+    position: static;
+  }
+  .image {
+    display: none;
+  }
+  .steps {
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 100%;
+  }
+}
+@media (max-width: 708px) {
+  .steps {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .root {
+    height: 1000px;
+  }
+}

@@ -1,0 +1,8 @@
+.btn {
+  margin-top: 32px;
+}
+@media (max-width: 1126px) {
+  .root {
+    max-width: 100%;
+  }
+}

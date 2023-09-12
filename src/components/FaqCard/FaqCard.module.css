@@ -1,0 +1,33 @@
+.root {
+  border-bottom: 1px solid #0c4088;
+}
+.icon {
+  color: #0c4088;
+  font-size: 2.5rem;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.detail {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 20px 0px;
+  justify-content: space-between;
+}
+.points {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.textBox {
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.hide {
+  display: none;
+}
+@media only screen and (max-width: 418px) {
+  .root {
+    width: 340px;
+  }
+}

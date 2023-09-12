@@ -1,0 +1,8 @@
+.root {
+  text-align: center;
+  margin: auto;
+  padding-top: 62px;
+  padding-bottom: 52px;
+  display: flex;
+  flex-direction: column;
+}

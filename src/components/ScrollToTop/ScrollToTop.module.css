@@ -1,0 +1,13 @@
+.top_to_btm {
+  position: relative;
+}
+.icon_position {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 20;
+}
+.icon_style {
+  height: 50px;
+  width: 50px;
+}

@@ -1,0 +1,28 @@
+.root {
+  background: var(--secondary-gradient);
+  padding: 72px 0px;
+}
+.textContainer {
+  max-width: 463px;
+  margin-bottom: 45px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  position: relative;
+}
+@media (max-width: 1055px) {
+  .container {
+    flex-direction: column;
+  }
+  .root {
+    background: none;
+    background-color: var(--primary-color);
+  }
+  .textContainer {
+    max-width: 100%;
+  }
+}

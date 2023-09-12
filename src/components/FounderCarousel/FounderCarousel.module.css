@@ -1,0 +1,72 @@
+.carouselButtonLeft {
+  justify-content: left;
+  color: white !important;
+  border: 1px solid white;
+}
+.carouselButtonLeft:hover {
+  background-color: #f1f1f1;
+  color: black !important;
+}
+.carouselButtonRight {
+  justify-content: left;
+  color: white !important;
+  border: 1px solid white;
+}
+.carouselButtonRight:hover {
+  background-color: #f1f1f1;
+  color: black !important;
+}
+
+.carouselContainer {
+  display: none;
+  justify-content: center;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  transition: 300ms opacity ease-in-out;
+  /* transition-delay: 300ms; */
+  gap: 50px;
+}
+.carouselSlideActive {
+  display: flex;
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+}
+.root {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 108px;
+}
+.carouselButton {
+  color: #01214d !important;
+  cursor: default !important;
+  display: flex;
+  border: 1px solid white;
+}
+.carouselButtonActive {
+  color: #fff !important;
+  cursor: pointer !important;
+}
+.carousel {
+}
+.carouselLeftSection {
+  margin-top: 100px;
+}
+.carouselRightSection {
+  margin-top: 100px;
+}
+/* Right Carousel Style */
+.carouselText {
+  width: 200px;
+}
+.text {
+  margin-bottom: 45px;
+}
+.leftCarouselText {
+  margin-bottom: 100px;
+}
+.rightCarouselText {
+  margin-bottom: 100px;
+}

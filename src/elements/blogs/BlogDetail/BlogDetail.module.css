@@ -1,0 +1,54 @@
+.mdxContainer {
+  max-width: 880px !important;
+}
+.mdxContainer > div > div > div {
+  color: #0c4088;
+  font-size: 16px;
+  line-height: 26px;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.tag {
+  padding: 8px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+.tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+.line:after {
+  margin-left: 8px;
+  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+  text-decoration: line-through;
+}
+.section {
+  max-height: 600px;
+  overflow: auto;
+  position: sticky;
+  top: 90px;
+}
+@media (max-width: 1144px) {
+  .tagContainer {
+    display: none;
+  }
+  .section {
+    display: none;
+  }
+}
+
+.mdxContainer > div > div > div {
+  border: 0 !important;
+}
+.ck.ck-toolbar {
+  border: none;
+}
+.ckSource {
+  color: blue;
+}

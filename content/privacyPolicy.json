@@ -1,0 +1,100 @@
+[
+  {
+    "General": {
+      "url": "/privacy-policy#general",
+      "nested-tabs": []
+    }
+  },
+  {
+    "1. Information Collection & Usage": {
+      "url": "",
+      "nested-tabs": [
+        {
+          "1.1 Privacy Rights - California Users ": "#privacy-rights-california-users"
+        }
+      ]
+    }
+  },
+  {
+    "2. Non-personally-Identifying Information": {
+      "url": "",
+      "nested-tabs": [
+        { "2.1 Users of the Sites Generally": "#users-of-the-sites-generally" },
+        { "2.2 Usage Data": "#usage-data" },
+        { "2.3 Web Cookies": "#web-cookies" },
+        { "2.4 Web Beacons": "#web-beacons" }
+      ]
+    }
+  },
+  {
+    "3. Personally-Identifying Information": {
+      "url": "",
+      "nested-tabs": [
+        { "3.1 Personal Data": "#personal-data" },
+        { "3.2 Company Disclosures": "#company-disclosures" },
+        { "3.3 Changing / Deleting Information": "#changing-deleting-info" },
+        { "3.4 Access to Personal Data": "#access-to-personal-data" }
+      ]
+    }
+  },
+  {
+    "4. Security": {
+      "url": "#security",
+      "nested-tabs": []
+    }
+  },
+  {
+    "5. Service Providers ": {
+      "url": "#service-providers",
+      "nested-tabs": []
+    }
+  },
+  {
+    "6. Payment Processors ": {
+      "url": "#payment-processes",
+      "nested-tabs": []
+    }
+  },
+  {
+    "7. Business Transactions": {
+      "url": "#business-transaction",
+      "nested-tabs": []
+    }
+  },
+  {
+    "8. International Transfers": {
+      "url": "#international-transfer",
+      "nested-tabs": []
+    }
+  },
+  {
+    "9. Links to Other Sites": {
+      "url": "#links-to-other-sites",
+      "nested-tabs": []
+    }
+  },
+  {
+    "10. Children's Privacy": {
+      "url": "#childrens-privacy",
+      "nested-tabs": []
+    }
+  },
+  {
+    "11. Changes to This Privacy Policy": {
+      "url": "#changes-to-privacy-policy",
+      "nested-tabs": []
+    }
+  },
+  {
+    "12. Do-Not-Track Policy ": {
+      "url": "#do-not-track-policy",
+      "nested-tabs": []
+    }
+  },
+  {
+    "13. Contact Us": {
+      "url": "#contact-us",
+      "nested-tabs": []
+    }
+  }
+]

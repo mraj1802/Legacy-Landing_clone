@@ -1,0 +1,26 @@
+.root {
+  width: 558px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 52px;
+  border-radius: 4px;
+  padding: 0px 22px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.45s ease-out;
+}
+.root:hover {
+  box-shadow: 0 5px 22px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+@media (max-width: 594px) {
+  .root {
+    width: 100%;
+    gap: 10px;
+  }
+  .text {
+    font-size: 12px;
+    text-align: left;
+  }
+}

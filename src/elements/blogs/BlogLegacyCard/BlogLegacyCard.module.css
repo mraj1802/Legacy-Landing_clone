@@ -1,0 +1,99 @@
+.imageBackground {
+  background-color: black;
+  position: absolute;
+  border-radius: 5px;
+  z-index: -2;
+  width: 100%;
+}
+.imageBackground > span {
+  height: 100% !important;
+  width: 100% !important;
+}
+.image {
+  z-index: -1;
+  object-fit: cover;
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+.text {
+  z-index: 1;
+  position: relative;
+}
+.btn {
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  margin: 20px;
+}
+.btnContainer {
+  display: flex;
+}
+.date {
+  margin-top: 80px;
+  margin-left: 30px;
+}
+.heading {
+  margin-left: 30px;
+  font-weight: 700;
+  width: 300px;
+  margin-top: 15px;
+}
+.paragraph {
+  font-family: "Lora", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  width: 100%;
+  max-width: 526px;
+  margin-left: 30px;
+  white-space: normal;
+  padding-right: 15px;
+  margin-top: 15px;
+}
+@media only screen and (max-width: 1350px) {
+  .imageContainer {
+    width: 500px !important;
+  }
+  .imageBackground {
+    width: 500px !important;
+  }
+  .container {
+    width: 500px !important;
+  }
+  .paragraph {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 659px) {
+  .imageContainer {
+    width: 400px !important;
+  }
+  .imageBackground {
+    width: 400px !important;
+  }
+  .container {
+    width: 400px !important;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .imageContainer {
+    width: 340px !important;
+  }
+  .imageBackground {
+    width: 340px !important;
+  }
+  .container {
+    width: 340px !important;
+  }
+  .paragraph {
+    width: auto;
+    margin-left: 20px;
+  }
+  .date {
+    margin-left: 20px;
+  }
+  .heading {
+    margin-left: 20px;
+  }
+}

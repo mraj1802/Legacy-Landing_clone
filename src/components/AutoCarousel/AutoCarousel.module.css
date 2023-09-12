@@ -1,0 +1,79 @@
+.body {
+  margin: 0;
+  font-size: 42px;
+  font-family: inherit;
+  color: #333;
+  overflow: hidden;
+}
+
+.orb {
+  border-radius: 50px;
+  margin: 0 24.7px;
+  transition: all 0.2s ease-out;
+  width: 400px;
+  height: 500px;
+}
+
+.red {
+  background: red;
+}
+
+.marquee {
+  height: 400px;
+  max-width: 1300px;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+.marqueeRight {
+  display: flex;
+  width: 300%;
+  margin: 0px 0;
+  margin-bottom: 50px !important;
+  position: absolute;
+  animation: marqueeRight 20s linear infinite;
+}
+.marqueeLeft {
+  display: flex;
+  width: 300%;
+  margin: 0px 0;
+  margin-bottom: 50px !important;
+  position: absolute;
+  animation: marqueeLeft 20s linear infinite;
+}
+
+.marqueeLeft:hover {
+  animation-play-state: paused;
+}
+.marqueeRight:hover {
+  animation-play-state: paused;
+}
+
+.span {
+  display: flex;
+}
+
+@keyframes marqueeRight {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -100%;
+  }
+}
+
+@keyframes marqueeLeft {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@media (max-width: 702px) {
+  .marquee {
+    height: 450px;
+  }
+}

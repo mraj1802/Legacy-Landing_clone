@@ -1,0 +1,18 @@
+.detail > P {
+  margin: 0 0 15px 0 !important;
+}
+
+.container > div > div > div {
+  border: none !important;
+  line-height: 1.75;
+  background-color: transparent !important;
+}
+
+.container > div > div > .ck.ck-editor__top .ck-sticky-panel .ck-toolbar {
+
+  border-bottom: 1px solid transparent !important;
+}
+
+.container > div > div > div > .ck.ck-toolbar {
+  border: none !important;
+}

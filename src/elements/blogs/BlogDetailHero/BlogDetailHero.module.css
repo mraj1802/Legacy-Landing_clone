@@ -1,0 +1,32 @@
+.container {
+  height: 40vh;
+}
+.mainContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -100;
+  background: var(--primary-gradient);
+  height: 40vh;
+  width: 100%;
+}
+
+.heading {
+  top: 45%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  max-width: 900px;
+  text-align: left;
+}
+.topContainer {
+  position: absolute;
+}
+@media (max-width: 1820px) {
+  .heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

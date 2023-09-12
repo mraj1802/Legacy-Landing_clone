@@ -1,0 +1,14 @@
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.hide {
+  display: none;
+}
+.icon {
+  color: red;
+}
+.textContainer > a {
+  display: block !important;
+  padding: 10px 0px !important;
+}

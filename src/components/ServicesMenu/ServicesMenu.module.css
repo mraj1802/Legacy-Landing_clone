@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+}
+.name {
+  white-space: nowrap;
+}
+.sideMenuOne {
+  position: absolute;
+  left: 239px;
+  top: 20px;
+}
+
+.sideMenuTwo {
+  position: absolute;
+  left: 239px;
+  top: 70px;
+}
+.sideMenuThree {
+  position: absolute;
+  left: 239px;
+  top: 120px;
+}

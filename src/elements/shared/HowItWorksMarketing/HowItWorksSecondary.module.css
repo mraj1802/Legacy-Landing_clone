@@ -1,0 +1,117 @@
+.root {
+  height: 820px;
+  position: relative;
+}
+.container {
+  max-width: 558px;
+  padding-top: 87px;
+  padding-bottom: 87px;
+}
+.stepContainer {
+  position: relative;
+  right: 90px;
+}
+.image {
+  position: absolute;
+  top: -200px;
+  bottom: 0px;
+  left: 70px;
+}
+.steps {
+  display: flex;
+  position: relative;
+}
+
+.stepOne,
+.stepTwo,
+.stepThree,
+.stepFour {
+  position: absolute;
+}
+
+.stepOne {
+  top: 205px;
+  left: 111px;
+}
+.stepTwo {
+  left: 408px;
+  top: 80px;
+}
+.stepThree {
+  left: 693px;
+  top: 69px;
+}
+.stepFour {
+  left: 870px;
+  top: -117px;
+}
+.button {
+  box-shadow: 6px 4px 31px rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 1220px) {
+  .heading {
+    white-space: normal;
+  }
+  .image {
+    left: 0px;
+  }
+  .stepOne {
+    top: 211px;
+    left: 77px;
+  }
+  .stepTwo {
+    left: 310px;
+    top: 95px;
+  }
+  .stepThree {
+    top: 49px;
+    left: 643px;
+  }
+  .stepFour {
+    top: -127px;
+    left: 800px;
+  }
+}
+
+@media (max-width: 1146px) {
+  .stepOne,
+  .stepTwo,
+  .stepThree,
+  .stepFour {
+    position: static;
+  }
+  .image {
+    display: none;
+  }
+  .steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 100%;
+  }
+}
+@media (max-width: 708px) {
+  .steps {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .root {
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .root {
+    height: auto;
+    padding-bottom: 60px !important;
+  }
+}

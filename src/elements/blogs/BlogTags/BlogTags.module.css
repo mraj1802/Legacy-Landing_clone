@@ -1,0 +1,60 @@
+.container {
+  max-width: 1068px;
+  margin: auto;
+  margin-top: 72px;
+  padding: 0px 15px;
+}
+.btnContainer {
+  display: flex;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  gap: 4px;
+  width: auto;
+}
+.tagsButtonContainer {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.btnLeft {
+  position: absolute;
+  left: 22px;
+  bottom: 0px;
+  color: white;
+  background-color: #0c4088;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px;
+}
+.btnRight {
+  position: absolute;
+  right: 22px;
+  bottom: 0px;
+  color: white;
+  background-color: #0c4088;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px;
+}
+.btnContainer::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 1156px) {
+  .btnRight {
+    right: 10px;
+  }
+  .btnLeft {
+    left: 10px;
+  }
+}

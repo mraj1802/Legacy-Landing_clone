@@ -1,0 +1,56 @@
+.root {
+  background: var(--primary-gradient);
+  padding-top: 72px;
+  position: relative;
+}
+
+.textContainer {
+  text-align: center;
+}
+.container {
+  max-width: 1140px;
+  background-color: #eceeee;
+  padding: 42px;
+  height: 610px;
+  margin: auto;
+  margin-top: 90px;
+  border-radius: 18px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+  z-index: 1000;
+}
+.heading {
+  position: relative;
+  z-index: 10;
+}
+.root::before {
+  background-image: url("/feelingLost/bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: -150px;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+.container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.ready {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: #28eae9;
+  border-radius: 12px;
+}

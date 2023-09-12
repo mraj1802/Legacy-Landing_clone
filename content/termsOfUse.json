@@ -1,0 +1,73 @@
+[
+  {
+    "1. Accounts": {
+      "url": "/accounts",
+      "nested-tabs": [
+        { "1.1 Account Creation": "#account-creation" },
+        { "1.2 Account Responsibility": "#account-responsibility" }
+      ]
+    }
+  },
+  {
+    "2. Access to the Site": {
+      "url": "access-to-the-site",
+      "nested-tabs": [
+        { "2.1 License": "#license" },
+        { "2.2 Certain Restrictions": "#certain-restrictions" },
+        { "2.3 Modification": "#modification" },
+        { "2.4 No Support or Maintenance": "#no-support-or-maintenance" },
+        { "2.5 Ownership": "#ownership" }
+      ]
+    }
+  },
+  {
+    "3. Indemnification": {
+      "url": "#indemnification",
+      "nested-tabs": []
+    }
+  },
+  {
+    "4. 3rd Party Links & Ads": {
+      "url": "third-party-links-and-ads-other-users",
+      "nested-tabs": [
+        { "4.1 Third-Party Links & Ads": "#third-party-links-and-ads" },
+        { "4.2 Other Users": "#other-users" },
+        { "4.3 Release": "#release" }
+      ]
+    }
+  },
+  {
+    "5. Disclaimer": {
+      "url": "#disclaimer",
+      "nested-tabs": []
+    }
+  },
+  {
+    "6. Limitation on Liability": {
+      "url": "#limitation-on-liability",
+      "nested-tabs": []
+    }
+  },
+  {
+    "7. Term & Termination": {
+      "url": "#term-and-termination",
+      "nested-tabs": []
+    }
+  },
+  {
+    "8. General": {
+      "url": "general",
+      "nested-tabs": [
+        { "8.1 Changes": "#changes" },
+        { "8.2 Dispute Resolution": "#dispute-resolution" },
+        { "8.3 Export": "#export" },
+        { "8.4 Disclosures": "#disclosures" },
+        { "8.5 Electronic Communications": "#electronic-communication" },
+        { "8.6 Prohibited Content": "#prohibited-content" },
+        { "8.7 Entire Terms": "#entire-terms" },
+        { "8.8 Copyright/Trademark Information": "#copyright-trademark-info" },
+        { "8.9 Contact Information": "#contact-info" }
+      ]
+    }
+  }
+]

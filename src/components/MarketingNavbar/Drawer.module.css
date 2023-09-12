@@ -1,0 +1,20 @@
+.drawer {
+  margin-top: 0.5rem;
+}
+.btn {
+  width: 100%;
+  padding: 10px;
+}
+.drawerListContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.drawerListItem {
+  max-width: 90px;
+}
+.logoContainer {
+  display: flex;
+  justify-content: space-between;
+}

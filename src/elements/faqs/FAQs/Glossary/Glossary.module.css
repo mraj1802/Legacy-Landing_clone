@@ -1,0 +1,32 @@
+.root {
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(6, 32, 68, 0.2) 0%,
+      rgba(12, 64, 136, 0.2) 100%
+    ),
+    linear-gradient(
+      134.6deg,
+      #005ad6 20.49%,
+      rgba(7, 222, 221, 0.9) 68.11%,
+      #53f549 139.56%
+    );
+  padding: 52px 0px;
+}
+.secondaryRoot {
+  background: radial-gradient(
+    144.94% 205.99% at 0% 0%,
+    #1455af 0%,
+    #004bb4 14.4%,
+    #0046a6 28.94%,
+    #0c3d81 44.94%,
+    #053272 58.17%,
+    #082d60 75.51%,
+    #062653 100%
+  );
+  padding: 52px 0px;
+}
+.btn {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}

@@ -1,0 +1,11 @@
+.root {
+  background: var(--secondary-gradient);
+  padding: 72px 0px;
+  margin-top: -1px;
+}
+@media (max-width: 1127px) {
+  .root {
+    background: none;
+    background-color: var(--primary-color);
+  }
+}

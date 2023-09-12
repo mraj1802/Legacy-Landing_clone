@@ -1,0 +1,25 @@
+.bg {
+  background: var(--primary-gradient);
+  height: auto;
+}
+.root {
+  display: flex;
+  padding-top: 110px !important;
+  justify-content: space-between;
+  align-items: center;
+}
+.img {
+  font-size: 0px !important;
+  line-height: 0px !important;
+  letter-spacing: 0 !important;
+  word-spacing: 0 !important;
+  font-size: 0 !important;
+}
+@media (max-width: 802px) {
+  .root {
+    flex-direction: column;
+  }
+  .bg {
+    height: auto;
+  }
+}

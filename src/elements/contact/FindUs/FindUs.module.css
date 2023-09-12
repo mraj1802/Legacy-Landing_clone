@@ -1,0 +1,32 @@
+.root {
+  background: var(--primary-gradient);
+  padding: 70px 0px;
+  position: relative;
+}
+.container {
+  display: flex;
+  column-gap: 113px;
+  row-gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.iconContainer {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+}
+.root::before {
+  background-image: url("/crypto/background-l.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  pointer-events: none;
+  z-index: 10;
+}

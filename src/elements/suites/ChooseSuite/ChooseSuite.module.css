@@ -1,0 +1,22 @@
+.root {
+  background: var(--primary-gradient);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 72px;
+}
+.childContainer {
+  display: flex;
+  padding-bottom: 32px;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.border {
+  border-bottom: 1px solid rgba(176, 202, 238, 0.4);
+}

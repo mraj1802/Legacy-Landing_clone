@@ -1,0 +1,42 @@
+.row {
+  display: flex;
+  max-width: 1376px;
+  margin: 0 auto 60px;
+}
+
+.column1 {
+  flex: 20%;
+  margin-left: 8%;
+}
+
+.column2 {
+  flex: 80%;
+  padding-top: 15px;
+  padding-right: 32px;
+  padding-left: 32px;
+  color: #0C4088;
+  overflow: hidden;
+}
+
+.list {
+  margin-top: 10%;
+  max-height: 750px;
+  overflow: auto;
+  font-size: 10px;
+  background-color: #f5f5f5;
+  color: #0C4088;
+  position: sticky;
+  top: 90px;
+}
+.list::-webkit-scrollbar {
+  width: 8px;
+}
+.list::-webkit-scrollbar-thumb {
+  background-color: #0c4088;
+  border-radius: 12px;
+}
+@media (max-width: 701px) {
+  .column1 {
+    display: none;
+  }
+}

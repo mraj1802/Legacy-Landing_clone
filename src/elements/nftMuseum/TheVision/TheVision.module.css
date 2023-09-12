@@ -1,0 +1,43 @@
+.heading {
+  margin-top: 72px;
+  font-weight: 700;
+}
+.text {
+  font-weight: 700;
+}
+.container {
+  max-width: 488px;
+}
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  flex-wrap: wrap;
+  position: relative;
+}
+@media (max-width: 1104px) {
+  .root {
+    gap: 50px;
+  }
+}
+.heading {
+  margin-top: 72px;
+  font-weight: 700;
+}
+.text {
+  font-weight: 700;
+}
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  flex-wrap: wrap;
+  position: relative;
+}
+@media (max-width: 1104px) {
+  .root {
+    gap: 50px;
+  }
+}

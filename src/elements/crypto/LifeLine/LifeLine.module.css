@@ -1,0 +1,23 @@
+.textContainer {
+  max-width: 558px;
+}
+.root {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+  justify-content: space-between;
+}
+@media (max-width: 990px) {
+  .root {
+    flex-direction: column;
+  }
+  .textContainer {
+    max-width: 100%;
+  }
+  .btn {
+    margin-bottom: 20px;
+  }
+  .root{
+    margin-top: 20px;
+  }
+}

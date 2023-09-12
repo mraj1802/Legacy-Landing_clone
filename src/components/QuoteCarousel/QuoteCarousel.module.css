@@ -1,0 +1,88 @@
+.bg {
+  position: relative;
+  z-index: 1000;
+}
+.background {
+  background: var(--primary-gradient);
+}
+.container {
+  text-align: center;
+}
+.icon {
+  font-size: 38px;
+}
+.iconContainer {
+  border: 2px solid #0c4088;
+  color: #0c4088;
+  border-radius: 50%;
+  height: 52px;
+  width: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.iconContainer:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c4088;
+  border: none;
+  color: white;
+}
+.iconContainerWhite {
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  height: 52px;
+  width: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.iconContainerWhite:hover {
+  border: 2px solid #28eae9;
+  color: #0c4088;
+  border-radius: 50%;
+  background-color: #28eae9;
+  height: 52px;
+  width: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.author {
+  font-weight: 600;
+}
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 42px;
+  padding-bottom: 72px;
+}
+.quote {
+  text-align: center;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 20px;
+  min-height: 100px;
+}
+.comma {
+  font-size: 100px;
+  padding: 0px;
+  margin-bottom: -30px;
+  text-align: center;
+}
+.mainHeading {
+  font-weight: 700;
+  padding-top: 72px;
+}
+.paragraph {
+  font-weight: 400;
+  padding-top: 12px;
+  padding-bottom: 20px;
+}

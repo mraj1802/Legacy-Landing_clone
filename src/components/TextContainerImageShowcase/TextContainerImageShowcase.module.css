@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 1126px) {
+  .root {
+    /* flex-direction: column-reverse; */
+    row-gap: 50px;
+  }
+}

@@ -1,0 +1,31 @@
+.root {
+  position: relative;
+  background: radial-gradient(
+    62.94% 76.99% at 0% 0%,
+    #1455af 0%,
+    #004bb4 14.4%,
+    #0046a6 28.94%,
+    #0c3d81 44.94%,
+    #053272 58.17%,
+    #082d60 75.51%,
+    #062653 100%
+  );
+  z-index: 6;
+}
+.container {
+  max-width: 1116px;
+  text-align: center !important;
+  margin: auto;
+  padding-top: 72px;
+}
+.stepContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1120px;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  row-gap: 42px;
+  column-gap: 32px;
+  padding-bottom: 72px;
+}

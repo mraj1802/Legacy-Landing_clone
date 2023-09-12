@@ -1,0 +1,16 @@
+.border {
+  border: 2px solid rgba(40, 234, 233, 0.3);
+  box-shadow: 0px 0px 31px rgba(40, 234, 233, 0.64);
+  transform: skew(-35deg);
+}
+.borderReverse {
+  transform: skew(35deg);
+}
+@media (max-width: 1372px) {
+  .border {
+    transform: skew(0deg);
+  }
+  .borderReverse {
+    transform: skew(0deg);
+  }
+}

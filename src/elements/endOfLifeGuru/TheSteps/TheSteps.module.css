@@ -1,0 +1,103 @@
+.root {
+  background: var(--primary-gradient);
+}
+.heading {
+  text-align: center;
+  z-index: 1000;
+  position: relative;
+  top: -10px;
+  margin-bottom: 120px;
+}
+
+.text {
+  background-image: url("/lifeGuru/statue.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  content: "";
+  position: relative;
+  right: 0;
+  left: 0;
+  top: 50px;
+  height: 200px;
+  z-index: 1000;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.stepContainer {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.circle {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: 42px;
+  bottom: 15px;
+}
+.textContainer {
+  border-left: 1px solid white;
+  max-width: 480px;
+  min-height: 500px;
+}
+.stepHeading {
+  padding-left: 40px;
+}
+.stepText {
+  padding-left: 40px;
+}
+.stepContainerRight {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.circleRight {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  right: 42px;
+  bottom: 15px;
+}
+.textContainerRight {
+  border-right: 1px solid white;
+  max-width: 480px;
+  min-height: 500px;
+}
+.stepHeadingRight {
+  padding-right: 40px;
+}
+
+.note {
+  padding: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.btnContainer {
+  display: flex;
+  margin-top: 38px;
+  padding-bottom: 72px;
+  text-align: center;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .btnContainer {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}

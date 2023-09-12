@@ -1,0 +1,80 @@
+---
+title: A Den of Billions of Dollars: The Unfortunate Millionaires
+banner: /blogs/legacy.png
+previewBanner: /blogs/life.png
+description: The collective amount held is a whopping $58 Billion in unclaimed money and benefits, which links with current affairs associated with government agencies, states, and different organizations. Suppose we chunk it down; for every US citizen, that’s $186. 
+date: 01.13.2022
+keywords:
+  - Unclaimed Proerty
+  - Unclaimed Benefits
+  - Billions of Dollars
+---
+
+It's always unfortunate when something gets misreported, and the facts are not clear.
+~~ Roger Goodell
+
+What if I told you that it’s possible you’re owed money that you don’t even know about, and it’s been just sitting in a government bank account and waiting for you, and maybe for some of you, it is TRUE.
+
+It might not necessarily be a lot, but it could be shares of some multi-national organization, which is undoubtedly worth millions.
+
+## What is unclaimed property?
+Basically, it is when a company owes you money or property for some reason and can’t get a hold of you to turn it over to you, so they give it to the government to hang on to instead. In some cases, this might be a refund, an old bank account that was closed, or even an old paycheck you collected; all in all, stuff like that.
+
+In the United States, for some time, governments on every state level have launched websites for citizens to see if they have any unclaimed benefits. Obviously, these websites have information regarding unclaimed benefits for US citizens as per policies and laws. We cannot discuss every other country and jurisdiction and their unclaimed property laws. Still, it will be similar in another country if you look in the right direction.
+
+## Forgotten Treasure
+There is a never-ending line of Americans missing billions of dollars in forgotten cash. The collective amount held is a whopping $58 Billion in unclaimed money and benefits, which links with current affairs associated with government agencies, states, and different organizations. Suppose we chunk it down; for every US citizen, that’s $186. There are other sources for unclaimed property, which include deserted bank accounts, stock assets, forgotten pension benefits, and not to forget about unclaimed life insurance payouts.
+
+Some people owed some severe amount of money. Last year, a guy living in Connecticut claimed about 32.8 million dollars, a fortune. The sale proceeded from an abandoned brokerage account, selling almost 1.3 million stock shares. The beneficiary of associated assets requested to stay anonymous. No other details were published.
+
+If we shed light on the report provided by pension benefit Guaranty Corporation, more than 300 million dollars is owed to about 38,000 US citizens regarding pension benefits. The amount is not a few cents in a wishing fountain; presently, it ranges from 12 cents to an incredible 704,621 dollars to the unclaimed benefits, with an average citizen benefit of 9100 dollars.
+
+If we dig deeper, when employees switch jobs to different organizations, they are unaware of previous unclaimed benefits they are leaving or don’t extract their retirement benefits properly.
+
+## Bound by laws
+A local retired couple from California was banished from $275K in investments, vanished from their accounts, and couldn’t get it back.
+The investment account was labeled as un-claimed. The money was sent to the state for safekeeping. So what was the reason they couldn’t get it back?
+
+![Alt text](/blogs/legacy/1.png)
+
+The story behind the curtains is almost hard to believe. A shock, Eugene and Ann Breznock’s bank in 275k$ in investment in their June Charles Schwab statement, gone, replaced with a column of zeros.
+
+The state requires Schwab to transfer his assets to the state's unclaimed property program for safe keeping, but now he can’t keep it back over a letter “I” reflected on the website of unclaimed state property, which means “incomplete.” The state blames Schwab for some sort of errors in the transfer, but Schwab directs it back to the state.
+
+**His attorney, William palmer, stated’**
+"This is unconstitutional steeling. The law has been twisted from its original purpose to protect property when people become lost and unknown."
+
+9 Billion dollars in unclaimed property alone in California is lost and floating around. But at the same time, celebrities like Elon Musk, Kanye West, and former governor Arnold Schwarzenegger each have unclaimed property, but why would they care, right?
+
+To make this cake even sweeter, Schwab released an official statement saying
+“We take our legal obligations seriously, and we always send the assets after making multiple attempts to contact the clients to claim the assets,”
+
+**Eugene stated'**
+“It’s just pure theft’. I didn’t touch my account for three years and I didn’t have any contact with Charles Schwab. I can’t tell how many nights awake thinking of what a rotten system this was, and how long it’s going to take me to be able to use my funds for what needs I needed them for. I have never received any letter and it’s a disgraceful system we live in. They take money from people as old as we are, that we saved and sweated blood for, I mean that’s a lot of nerve.”
+
+## The Nutshell
+Well, if we analyze the stats, every 1 in 10 US citizens has unclaimed property claims. The laws associated with unclaimed properties and benefits have hidden flaws, which reveal when the owner passes away, or an employee switches jobs or eventually retires.
+
+According to the National Association of Unclaimed Property Administrators, more than $3 billion in unclaimed money is returned to its owners by the states each year. The unclaimed property laws ensure that money and property owed to the respective parties should be returned to them rather than remain with financial institutions, governing departments, and other third parties permanently. If that is the case, why are there cases like Eugene and Ann Breznock mumbling around?
+
+![Alt text](/blogs/legacy/2.png)
+
+Maybe that can be a needle in a haystack, but why do the figures keep spiking yearly? Or the question should be rephrased as
+- What’s causing this spike?
+
+We can assume people are not aware of what will happen to their property and benefits once they are deceased or retire from their respective jobs. Yes, the affairs were not settled straight, and what you have been striving for all these years was held at the mercy of governing bodies, or your final wishes will be just another file avatar showering itself with dust and darkness.
+
+Primarily, the wills are not appropriately derived; a human error can lead to the loss of millions of dollars. We cannot ignore the factor of human nature that comes with emotionally driven decisions associated with their final “will,” made in certain circumstances leading to fights, miscommunication, and quarrels between the deceased loved ones. Sometimes the executor plays the devil's part and makes the fools out of the “wills,” manipulating and tampering with wishes in his accord. This creates a pile of millions or billions of dollars which remains in disputed or unclaimed form. I’m not stating that these are the only reasons for unclaimed property and benefits; this ocean contains millions of stories associated with every aspect of life.
+
+Let’s take it this way; the governing departments are not at fault. The will executors are not at fault. The laws of your state are not at fault. The third parties are not at fault. If you ask me what’s causing this spike over the years, there is only one thing I find familiar that relates itself to every aspect of $58billion is'
+
+###### Why haven’t we sorted out our properties and benefits when we had the time?
+
+
+
+
+
+
+
+
+

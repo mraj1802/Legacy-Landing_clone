@@ -1,0 +1,14 @@
+.root {
+  max-width: 558px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (max-width: 400px) {
+  .root {
+    width: 320px;
+    padding: 0px 10px;
+  }
+}

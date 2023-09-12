@@ -1,0 +1,40 @@
+.root {
+  max-width: 244px;
+}
+.number {
+  width: 64px;
+  height: 64px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.numberWallets {
+  width: 64px;
+  height: 64px;
+  background-color: #0c4088;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.numberSecondary {
+  width: 64px;
+  height: 64px;
+  background-color: #28eae9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 31px rgba(40, 234, 233, 0.5);
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 708px) {
+  .root {
+    max-width: 508px;
+  }
+}

@@ -1,0 +1,22 @@
+.root {
+  background: var(--primary-gradient);
+  padding: 72px 0px;
+}
+.textContainer {
+  max-width: 736px;
+  text-align: center;
+  margin: auto;
+}
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38px;
+  gap: 24px;
+}
+@media (max-width: 640px) {
+  .cardContainer {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+  }
+}

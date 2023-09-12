@@ -1,0 +1,14 @@
+.container {
+  opacity: 0;
+  transform: translateX(200px);
+  transition: 0.5s;
+}
+.containerLeft {
+  opacity: 0;
+  transform: translateX(-200px);
+  transition: 0.5s;
+}
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}

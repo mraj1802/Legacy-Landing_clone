@@ -1,0 +1,39 @@
+.title {
+  /* text-align: center; */
+  /* color: #fff; */
+  width: 800px;
+  /* margin: auto; */
+  line-height: 6;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+.heading {
+  width: 800px;
+  margin: auto;
+  color: rgb(12, 64, 136);
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-top: 80px;
+  display: flex;
+}
+
+.detail {
+  width: 800px;
+  margin: auto;
+  color: rgb(12, 64, 136);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 80px;
+}
+/* p {
+    font-size: 1rem;
+    line-height: 1.75;
+    letter-spacing: 0.01038em;
+    font-weight: 400;
+  } */
+.listTitle {
+  text-align: center;
+}
+.image {
+  width: 100%;
+}

@@ -1,0 +1,46 @@
+.text {
+  max-width: 959px;
+  margin: auto;
+  margin-top: 100px;
+  line-height: 32px;
+  text-align: center;
+  z-index: 10000;
+}
+.container {
+  position: relative;
+}
+.root::before {
+  background-image: url("/nftMuseum/textSection.png");
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
+  background-position: center;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1000;
+  pointer-events: none;
+  z-index: 1;
+  animation: bgImage 6s infinite;
+}
+
+@keyframes bgImage {
+  0% {
+    background-size: 40% 50%;
+  }
+  25% {
+    background-size: 50% 60%;
+  }
+  50% {
+    background-size: 60% 70%;
+  }
+  75% {
+    background-size: 70% 80%;
+  }
+  100% {
+    background-size: 80% 100%;
+  }
+}

@@ -1,0 +1,150 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: inherit !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.ck.ck-toolbar {
+  border: none !important;
+}
+:root {
+  --primary-gradient: radial-gradient(
+    68.38% 146.27% at 31.94% 30.67%,
+    #1455af 2.59%,
+    #004bb4 5.67%,
+    #0046a6 8.78%,
+    #0c3d81 13.58%,
+    #053272 17.86%,
+    #082d60 25.59%,
+    #062653 34.47%,
+    #05295b 58.82%,
+    #062e65 64.65%,
+    #073372 69.52%,
+    #0b3b7e 73.41%,
+    #054193 78.91%,
+    #0144a2 84.28%,
+    #004ab1 89.12%,
+    #054bad 94.59%,
+    #044bae 100%
+  );
+  --secondary-gradient: radial-gradient(
+    146.63% 323.12% at -5.14% 22.34%,
+    #1455af 2.59%,
+    #004bb4 5.67%,
+    #0046a6 8.78%,
+    #0c3d81 13.58%,
+    #053272 17.86%,
+    #082d60 20.59%,
+    #062653 23.45%
+  );
+  --primary-color: #062653;
+}
+* {
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #28ea99;
+  border-radius: 12px;
+}
+.scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #28ea99;
+  border-radius: 12px;
+}
+
+/* Loader Code */
+.loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  transition: opacity 1.4s ease;
+
+  background: radial-gradient(
+    68.38% 146.27% at 31.94% 30.67%,
+    #1455af 0%,
+    #004bb4 4.18%,
+    #0046a6 7.79%,
+    #07408f 12.01%,
+    #0c3d81 14.48%,
+    #04367a 18.72%,
+    #092f64 25.41%,
+    #042859 33.66%,
+    #052755 39.33%,
+    #062755 45.08%,
+    #05295b 57.51%,
+    #062e65 63.83%,
+    #073372 68.19%,
+    #0b3b7e 72.22%,
+    #054193 77.11%,
+    #0144a2 82.99%,
+    #004ab1 89.12%,
+    #054bad 94.59%,
+    #044bae 100%
+  );
+
+  background-size: cover;
+  transform: scale(-1px);
+  background-repeat: no-repeat;
+}
+.productTour {
+  z-index: 100;
+}
+
+.loader img {
+  background-position: center;
+  background-size: cover;
+}
+.loader-logo {
+  height: 100px;
+  /* animation: scale 2.5s infinite linear; */
+  transform-origin: center;
+  animation: spinner 5s infinite;
+}
+@keyframes spinner {
+  0% {
+    opacity: 0;
+    transform: scale(0) translateX(-300%);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.39) translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0) translateX(300%);
+  }
+}
+/* Reseting Mui Container */
+.MuiContainer-root {
+  max-width: 1200px !important;
+  margin: auto;
+}
+/* If you want to enable dark mode by default enable this code */
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+.ck.ck-toolbar {
+  border: none !important;
+}

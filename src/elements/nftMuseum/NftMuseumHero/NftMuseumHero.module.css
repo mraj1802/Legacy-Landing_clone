@@ -1,0 +1,31 @@
+.root::before {
+  background-image: url("/nftMuseum/stars-background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 60%;
+  z-index: -1;
+  pointer-events: none;
+}
+.btnContainer {
+  display: flex;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 72px;
+  gap: 24px;
+}
+
+@media (max-width: 432px) {
+  .btnContainer {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}

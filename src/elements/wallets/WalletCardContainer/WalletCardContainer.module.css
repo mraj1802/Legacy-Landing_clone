@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 72px 0px;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+.card {
+  max-width: 346px;
+}
+
+@media (max-width: 1100px) {
+  .card {
+    max-width: 100%;
+  }
+}

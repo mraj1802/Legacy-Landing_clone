@@ -1,0 +1,97 @@
+.bg {
+  padding-top: 138px;
+  background: var(--primary-gradient);
+  position: relative;
+  z-index: 0;
+}
+.bgImage::before {
+  background-image: url("/marketing/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+.bgSecondary {
+  padding-top: 138px;
+  background: var(--secondary-gradient);
+  position: relative;
+  z-index: 0;
+}
+.container {
+  position: relative;
+}
+.image {
+  position: relative;
+  z-index: 2;
+}
+
+.img {
+  position: absolute;
+  right: 0px;
+  bottom: -200px;
+}
+.btn {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  z-index: 1000;
+}
+.btnn {
+  padding: 0px 8px;
+}
+.responsiveImage {
+  display: none;
+}
+.chip {
+  max-width: 300px;
+  border-radius: 100px;
+  padding: 6px 12px;
+  border: 1px solid rgba(176, 202, 238, 0.5);
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1054px) {
+  .bg,
+  .bgSecondary {
+    height: auto;
+  }
+  .image {
+    display: none;
+  }
+  .responsiveImage {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .textContainer {
+    text-align: center;
+    margin: auto;
+  }
+  .btn {
+    align-content: center;
+    justify-content: center;
+  }
+  .chip {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 618px) {
+  .btn {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bgSecondary {
+    background: var(--primary-color);
+  }
+}

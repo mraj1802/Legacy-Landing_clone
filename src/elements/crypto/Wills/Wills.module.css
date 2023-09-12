@@ -1,0 +1,21 @@
+.root {
+  background: var(--primary-gradient);
+  position: relative;
+  padding-top: 72px;
+  padding-bottom: 42px;
+}
+.root::before {
+  background-image: url("/crypto/background-l.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  pointer-events: none;
+  z-index: 10;
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "1. Information Collection & Usage": {
+      "url": "",
+      "nested-tabs": [
+        {
+          "1.1 Administrator": "#administrator"
+        },
+        {
+          "1.2 Ancillary Probate": "#ancillary-probate"
+        },
+        {
+          "1.3 Bequest": "#bequest"
+        },
+        {
+          "1.4 Bond": "#bond"
+        },
+        {
+          "1.5 Codicil": "#codicil"
+        },
+        {
+          "1.6 Decedent": "#decedent"
+        },
+        {
+          "1.7 Elective-share": "#elective-share"
+        },
+        {
+          "1.8 Executor": "#executor"
+        },
+        {
+          "1.9 Grantor/Settlor/Trustor": "#grantor-settlor-trustor"
+        },
+        {
+          "1.10 Gross Estate": "#gross-estate"
+        },
+        {
+          "1.11 Heir": "#heir"
+        },
+        {
+          "1.12 Holographic Will": "#holographic-will"
+        },
+        {
+          "1.13 Non-Probate Assets": "#non-probate-assets"
+        },
+        {
+          "1.14 Pour Over Will": "#pour-over-will"
+        },
+        {
+          "1.15 Probate": "#probate"
+        },
+        {
+          "1.16 Testate": "#testate"
+        },
+        {
+          "1.17 Trust": "#trust"
+        },
+        {
+          "1.18 Will": "#will"
+        }
+      ]
+    }
+  }
+]

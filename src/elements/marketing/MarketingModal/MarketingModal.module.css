@@ -1,0 +1,44 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 10px;
+}
+.container {
+  background-color: white;
+  max-width: 611px;
+  width: 100%;
+  height: 460px;
+  border-radius: 8px;
+  padding: 33px;
+  position: relative;
+}
+.img {
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+.input {
+  border: 1px solid #dfe2e3;
+  font-size: 18px;
+  width: 100%;
+  border-radius: 4px;
+  padding: 11px;
+  margin-top: 14px;
+}
+.btn {
+  text-align: center;
+  margin-top: 24px;
+}
+.input:focus {
+  outline: none;
+}
+
+@media (max-width: 500px) {
+  .img {
+    top: 5px;
+    right: 10px;
+  }
+}

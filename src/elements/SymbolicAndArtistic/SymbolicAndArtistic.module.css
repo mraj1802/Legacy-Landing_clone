@@ -1,0 +1,23 @@
+.root {
+  padding-top: 72px;
+  position: relative;
+  z-index: 4;
+}
+.root::before {
+  background-image: url("/landing/statue-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+@media (max-width: 1126px) {
+  .root {
+    padding-bottom: 72px;
+  }
+}
